@@ -91,3 +91,22 @@ footer {
   color: #5b6578;
   font-size: 0.9rem;
 }
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  display: block;
+  width: 82px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .brand-logo {
+    width: 68px;
+  }
+}
